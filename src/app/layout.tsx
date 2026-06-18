@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Archivo, Barlow } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
@@ -49,6 +50,8 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        {/* Vercel Analytics — let's see if anyone actually visits this resume site haha */}
+        <Analytics />
       </body>
     </html>
   );
