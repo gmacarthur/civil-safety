@@ -2,7 +2,7 @@
 
 Next.js rebuild of the [Civil Safety](https://www.civilsafety.com.au) homepage, built as a portfolio demo of a modernised marketing site with working course search.
 
-**Live demo:** TBC
+**Live demo:** [civil-safety.vercel.app](https://civil-safety.vercel.app)
 
 **Garrett Macarthur**  
 Founder & Lead Developer, [Formist](https://www.formist.com.au)
